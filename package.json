@@ -1,0 +1,19 @@
+{
+  "name": "coding-challenge-spare-parts",
+  "version": "1.0.0",
+  "description": "We are excited to be taking the next steps with you as a candidate! Our team has a straight forward code challenge for you to complete. We value your time, and while you are free to spend as much time on the challenge as you wish, we expect it to be completable _within three hours_. This challenge is not-timed, and we will consider your solution independent of however long it took to complete. If you need more than 5 days in total to complete the code challenge, please let us know so that we can plan accordingly.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha",
+    "coverage": "npx nyc mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "csv-parser": "^3.0.0",
+    "mocha": "^10.2.0"
+  }
+}
